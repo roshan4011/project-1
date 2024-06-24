@@ -1,0 +1,79 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+    color: white;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* For WebKit browsers */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #2b2b2b;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888;
+  }
+  
+  /* For Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #555 #2b2b2b;
+  }
+  
+  /* Optional: To ensure compatibility across different browsers */
+  body {
+    scrollbar-base-color: #2b2b2b;
+    scrollbar-face-color: #555;
+    scrollbar-arrow-color: #fff;
+    scrollbar-highlight-color: #444;
+    scrollbar-shadow-color: #444;
+    scrollbar-3dlight-color: #333;
+    scrollbar-darkshadow-color: #333;
+  }
+  
